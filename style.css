@@ -88,7 +88,7 @@ header{
 }
 
 #adjectives{
-    animation: blinking 2s linear infinite;
+    animation: blinking 2.5s linear infinite;
 }
 
 @keyframes blinking{
@@ -96,8 +96,10 @@ header{
         opacity: 0;
         font-size: 20px;
     }
-    50%{opacity: 1;}
-    100%{opacity: 0;}
+    50%{opacity: 1; 
+    font-size: 30px;}
+    100%{opacity: 0 ;
+    font-size: 20px;}
 }
 
 .home_content{
@@ -108,4 +110,30 @@ header{
 
     background-color: transparent;
     font-size: 30px;
+}
+
+.social{
+    position: absolute;
+    justify-content: center;
+    display: flex;
+    top: 70%;
+    left: 50%;
+    width: 100vw;
+    transform: translate(-50%, -50%);
+    
+    background-color: transparent;
+}
+
+.social a img{
+    margin: 4vw;
+    background-color: transparent;
+    height: 42px;
+}
+
+.social img:hover{
+    height: 56px;
+}
+
+.social a{
+    background-color: transparent;
 }
