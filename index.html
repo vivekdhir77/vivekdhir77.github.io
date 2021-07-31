@@ -43,7 +43,7 @@
             <img id="home_img" src="aboutpg.jpg" alt="">
             <h2 class="name">Vivek Dhir</h2>
             
-            <p class="home_content">I am a <span id="adjectives" style="background: transparent;"></span></p>
+            <p class="home_content">I am <span id="adjectives" style="background: transparent;"></span></p>
         </div>
         
 
@@ -86,29 +86,25 @@
     </div>
 </body>
 <script>
-    $(function () {
-  var roles = ["Student", "Competitive Coder", "Gamer","Web Developer","Android Developer","Badminton Player","Foodie"];
-  var count = 0;
-  setInterval(() => {
-    $("#adjectives").fadeOut("fast", function () {
-      $(this).text(roles[count++ % roles.length]);
-      $(this).fadeIn("fast");
-    });
-  }, 3000);
-});
+//     $(function () {
+//   var roles = ["Student", "Competitive Coder", "Gamer","Web Developer","Android Developer","Badminton Player","Foodie"];
+//   var count = 0;
+//   setInterval(() => {
+//     $("#adjectives").fadeOut("fast", function () {
+//       $(this).text(roles[count++ % roles.length]);
+//       $(this).fadeIn("fast");
+//     });
+//   }, 3000);
+// });
 
-
-// function rol(){
-//     var adj = document.getElementById("adjectives");
-//     adj.fadeOut
-    
-// };
-
-// this.fun();{
-//     var roles = ["Student", "Competitive Coder", "Gamer","Web Developer","Android Developer","Badminton Player","Foodie"];
-//     var conut =0;
-//     setInterval()
-// }
+var roles = ["a Student", "a Competitive Coder", "a Gamer","Web Developer","an Android Developer","a Badminton Player","a Foodie"];
+var count =0;
+window.setInterval(function (){
+    if(count>=6)
+        count = 0;
+    document.getElementById("adjectives").innerHTML=roles[count];
+    count = count+1;
+}, 2000)
 </script>
 </html>
 
