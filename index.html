@@ -8,16 +8,19 @@
 
     <title>👽Vivek Dhir</title>
     <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
 </head>
 
 
 <body> 
      <!-----------------navigtion bar start------------------------ -->
     <header>
-        <h1 class="head"> Vivek Dhir </h1>
 
         <nav class="navbar">
-            <ul>
+            <h1 class="logo"> Vivek Dhir </h1>
+            <ul class="buttons">
                 <li><a class="navbutton" href="#"> Home</a></li>
                 <li><a class="navbutton" href="#"> About</a></li>
                 <li><a class="navbutton" href="#"> Skills</a></li>
@@ -40,7 +43,7 @@
             <img id="home_img" src="aboutpg.jpg" alt="">
             <h2 class="name">Vivek Dhir</h2>
             
-            <p class="home_content">I am a competitive coder<p>
+            <p class="home_content">I am a <span id="adjectives" style="background: transparent;"></span></p>
         </div>
         
 
@@ -82,4 +85,30 @@
 
     </div>
 </body>
+<script>
+    $(function () {
+  var roles = ["Student", "Competitive Coder", "Gamer","Web Developer","Android Developer","Badminton Player","Foodie"];
+  var count = 0;
+  setInterval(() => {
+    $("#adjectives").fadeOut("fast", function () {
+      $(this).text(roles[count++ % roles.length]);
+      $(this).fadeIn("fast");
+    });
+  }, 3000);
+});
+
+
+// function rol(){
+//     var adj = document.getElementById("adjectives");
+//     adj.fadeOut
+    
+// };
+
+// this.fun();{
+//     var roles = ["Student", "Competitive Coder", "Gamer","Web Developer","Android Developer","Badminton Player","Foodie"];
+//     var conut =0;
+//     setInterval()
+// }
+</script>
 </html>
+
