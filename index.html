@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
 
     <title>👽Vivek Dhir</title>
     <link rel="stylesheet" href="style.css">
@@ -17,25 +18,29 @@
 </head>
 
 
-<body> 
-     <!-----------------navigtion bar start------------------------ -->
+<body>
+    <!-----------------navigtion bar start------------------------ -->
     <header>
-
         <nav class="navbar">
-            <h1 class="logo"> Vivek Dhir </h1>
-            <ul class="buttons">
-                <li><a class="navbutton" href="#"> Home</a></li>
-                <li><a class="navbutton" href="#"> About</a></li>
-                <li><a class="navbutton" href="#"> Skills</a></li>
-                <li><a class="navbutton" href="#"> Hobbies</a></li>
-                <li><a class="navbutton" href="#"> Achievements</a></li>
-                <li><a class="navbutton" href="#"> Roles</a></li>
-                <li><a class="navbutton" href="#"> Goals</a></li>
-                <li><a class="navbutton" href="#"> Contact</a></li>
-            </ul>
+            <input type="checkbox" id="check">
+
+            <h1 class="logo">Vivek Dhir</h1>
+                <ul class="buttons">
+                    <li><a class="navbutton1" href="#"> Home</a></li>
+                    <li><a class="navbutton2" href="#"> About</a></li>
+                    <li><a class="navbutton3" href="#"> Skills</a></li>
+                    <li><a class="navbutton4" href="#"> Hobbies</a></li>
+                    <li><a class="navbutton5" href="#"> Achievements</a></li>
+                    <li><a class="navbutton6" href="#"> Roles</a></li>
+                    <li><a class="navbutton7" href="#"> Goals</a></li>
+                    <li><a class="navbutton8" href="#"> Contact</a></li>
+                </ul>
+                <label for="check" class="checkbtn">
+                    <i class="fas fa-bars"></i>
+                </label>
         </nav>
     </header>
-     <!-----------------navigtion bar end------------------------  -->
+    <!-----------------navigtion bar end------------------------  -->
 
 
 
@@ -56,7 +61,7 @@
         </div>
 
         <div class="About">
-        
+
         </div>
 
 
@@ -66,27 +71,27 @@
 
 
         <div class="Hobbies">
-        
+
         </div>
 
 
         <div class="Achievements">
-        
+
         </div>
 
 
         <div class="Roles">
-        
+
         </div>
 
 
         <div class="Goals">
-        
+
         </div>
 
 
         <div class="Contact">
-        
+
         </div>
 
 
@@ -94,24 +99,25 @@
     </div>
 </body>
 <script>
-//     $(function () {
-//   var roles = ["Student", "Competitive Coder", "Gamer","Web Developer","Android Developer","Badminton Player","Foodie"];
-//   var count = 0;
-//   setInterval(() => {
-//     $("#adjectives").fadeOut("fast", function () {
-//       $(this).text(roles[count++ % roles.length]);
-//       $(this).fadeIn("fast");
-//     });
-//   }, 3000);
-// });
+    //     $(function () {
+    //   var roles = ["Student", "Competitive Coder", "Gamer","Web Developer","Android Developer","Badminton Player","Foodie"];
+    //   var count = 0;
+    //   setInterval(() => {
+    //     $("#adjectives").fadeOut("fast", function () {
+    //       $(this).text(roles[count++ % roles.length]);
+    //       $(this).fadeIn("fast");
+    //     });
+    //   }, 3000);
+    // });
 
-var roles = ["a Student", "a Competitive Coder", "a Gamer","a Web Developer","an Android Developer","a Badminton Player","a Foodie"];
-var count =1;
-window.setInterval(function (){
-    if(count>=6)
-        count = 0;
-    document.getElementById("adjectives").innerHTML=roles[count];
-    count = count+1;
-}, 2500)
+    var roles = ["a Student", "a Competitive Coder", "a Gamer", "a Web Developer", "an Android Developer", "a Badminton Player", "a Foodie"];
+    var count = 1;
+    window.setInterval(function () {
+        if (count >= 6)
+            count = 0;
+        document.getElementById("adjectives").innerHTML = roles[count];
+        count = count + 1;
+    }, 2500)
 </script>
+
 </html>
