@@ -490,8 +490,9 @@ header nav ul li a{
 .Achievements{
     background-color: #1B252F;
     width: 100%;
-    height: 75vh;
+    height: auto;
     margin-right: 40px;
+    padding-bottom: 20px;
     /* display: flex; */
 }
 @import url('https://fonts.googleapis.com/css2?family=PT+Sans&family=Rubik:wght@500&display=swap');
@@ -556,9 +557,16 @@ header nav ul li a{
 /*projects section start*/
 .Projects{
     background-color: black;
-    height: 108vh;
+    height: auto;
     padding-top: 70px;
+    padding-bottom: 20px;
 }
+
+/* @media screen and (max-width:550px){
+    .Projects{
+        height: 1400px;
+    }
+} */
 .Projects h3{
     text-align: center;
     font-size: 24px;
@@ -595,3 +603,40 @@ header nav ul li a{
     color: #e7f18a;
     text-decoration: underline;
 }
+
+/*projects section end*/
+
+/*footer section start*/
+footer{
+    background-color: #202020;
+    overflow-x: hidden;
+}
+
+.ico{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    list-style: none;
+}
+
+.ico li{
+    padding: 28px;
+    font-size: 36px;
+}
+
+.ico li a{
+    color: #6d6d6d;
+}
+
+.ico li a:hover{
+    color: white;
+}
+
+.copyright{
+    color: #6d6d6d;
+    text-align: center;
+    list-style: none;
+    line-height: 40px;
+}
+
+/*footer section ends*/

@@ -9,11 +9,7 @@
     <link rel="stylesheet" href="font-mfizz/font-mfizz.css">
     <title>👽Vivek Dhir</title>
     <link rel="stylesheet" href="style.css">
-
-    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
-
-    <!-- <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script> -->
-    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script> -->
+    <script defer src="/fontawesome-free-5.15.3-web/js/all.js"></script> 
 
 </head>
 
@@ -30,12 +26,12 @@
             </label>
             <p class="mediaLogo" hidden style="background-color: transparent;">Vivek Dhir</p>
             <ul class="buttons">
-                <li><a class="navbutton1" href="#"> Home</a></li>
-                <li><a class="navbutton2" href="#"> About</a></li>
-                <li><a class="navbutton3" href="#"> Skills</a></li>
-                <li><a class="navbutton4" href="#"> Hobbies</a></li>
-                <li><a class="navbutton5" href="#"> Achievements</a></li>
-                <li><a class="navbutton6" href="#"> Projects</a></li>
+                <li><a class="navbutton1" href="#home"> Home</a></li>
+                <li><a class="navbutton2" href="#about"> About</a></li>
+                <li><a class="navbutton3" href="#skills"> Skills</a></li>
+                <li><a class="navbutton4" href="#hobbies"> Hobbies</a></li>
+                <li><a class="navbutton5" href="#achievement"> Achievements</a></li>
+                <li><a class="navbutton6" href="#projects"> Projects</a></li>
                 <li><a class="navbutton7" href="#"> Goals</a></li>
                 <li><a class="navbutton8" href="#"> Contact</a></li>
             </ul>
@@ -48,19 +44,22 @@
     <div class="main">
 
 
-        <div class="Home">
+        <div class="Home" id="home">
             <img id="home_img" src="aboutpg.jpg" alt="">
             <h2 class="name">Vivek Dhir</h2>
             <p class="home_content">I am <span id="adjectives" style="background: transparent;">a Student</span></p>
             <div class="social">
                 <a href="mailto: vivekdhir77@gmail.com" target="_blank"><img src="social/mail.svg" alt="mail"></a>
-                <a href="https://www.linkedin.com/in/vivekdhir77/" target="_blank"><img src="social/linkedin.svg" alt="linkedin"></a>
+                <a href="https://www.linkedin.com/in/vivekdhir77/" target="_blank"><img src="social/linkedin.svg"
+                        alt="linkedin"></a>
                 <a href="https://github.com/vivekdhir77" target="_blank"><img src="social/github.svg" alt="github"></a>
-                <a href="https://www.instagram.com/vivekdhir77/" target="_blank"><img src="social/instagram.svg" alt="instagram"></a>
-                <a href="https://twitter.com/vivekdhir77" target="_blank"><img src="social/twitter.svg" alt="twitter"></a>
+                <a href="https://www.instagram.com/vivekdhir77/" target="_blank"><img src="social/instagram.svg"
+                        alt="instagram"></a>
+                <a href="https://twitter.com/vivekdhir77" target="_blank"><img src="social/twitter.svg"
+                        alt="twitter"></a>
             </div>
         </div>
-        <div class="About">
+        <div class="About" id="about">
             <h3 class="aboutHeading">About Me</h3>
             <hr class="aboutLine" size="8" width="30%">
             <p class="aboutBody">Hi, I am Vivek Dhir. I live in the IT hub of India, Hyderabad. If you need anything up
@@ -74,13 +73,13 @@
             </p>
         </div>
 
-        <div class="Skills">
+        <div class="Skills" id="skills">
             <img class="skillsImg" src="skills.gif" alt="space" width="100%">
             <h3 class="skillsHeading">Tech Skills</h3>
             <div class="comp">
                 <h5>Competitive Programming</h5>
                 <ul>
-                    <li> <i class="icon-cplusplus"></i></li>
+                    <li><img style="width: 36px;" src="icons/c.svg" alt="C++"></li>
                     <li><img style="width: 124px;" src="icons/python-logo-generic.svg" alt="Python"></li>
                 </ul>
             </div>
@@ -115,33 +114,35 @@
         </div>
 
 
-        <div class="Hobbies">
+        <div class="Hobbies" id="hobbies">
             <h5 class="hobby">Hobbies</h5>
             <hr class="hobbiesLine" size="3" width="30%">
             <!-- <div class="hobbydiv"> -->
-                <ul>
-                    <li>Badminton🏸</li>
-                    <li>Football⚽</li>
-                    <li>Playing Chess <img style="width: 28px;" src="icons/chess-pieces-transparent-35.png" alt="chess">
-                    </li>
-                    <li>Solving Cube<img style="width: 28px;" src="icons/cube_of_rubik_1.svg" alt="cube"></li>
-                    <li>Reading Blogs on startups📚</li>
-                    <li>Learning about stocks<img style="width: 28px;" src="icons/stock.png" alt="stocks"></li>
-                    <li>Listening to ted talks<img style="width: 28px;" src="icons/TED.png" alt="TED"></li>
-                </ul>
-            </div>
+            <ul>
+                <li>Badminton🏸</li>
+                <li>Football⚽</li>
+                <li>Playing Chess <img style="width: 28px;" src="icons/chess-pieces-transparent-35.png" alt="chess">
+                </li>
+                <li>Solving Cube<img style="width: 28px;" src="icons/cube_of_rubik_1.svg" alt="cube"></li>
+                <li>Reading Blogs on startups📚</li>
+                <li>Learning about stocks<img style="width: 28px;" src="icons/stock.png" alt="stocks"></li>
+                <li>Listening to ted talks<img style="width: 28px;" src="icons/TED.png" alt="TED"></li>
+            </ul>
+        </div>
         <!-- </div> -->
 
 
-        <div class="Achievements">
+        <div class="Achievements" id="achievement">
             <h5 id="achievements">Achievements</h5>
             <hr width="30%" size="8">
             <p>Here are some of my achievements:</p>
 
             <ul style="list-style-type:circle;">
-                <li>Solved 400+ questions in total from codeforces, codechef, Atcoder, spoj, HackerRank and leetcode.</li>
-                <li>Max rating 1115 on <a href="https://codeforces.com/profile/vivekdhir77" " target="_blank">CODEFORCES</a></li>
-                <li>3⭐ on <a href="https://www.codechef.com/users/vivekdhir77" " target="_blank">CODECHEF</a></li>
+                <li>Solved 400+ questions in total from codeforces, codechef, Atcoder, spoj, HackerRank and leetcode.
+                </li>
+                <li>Max rating 1115 on <a href="https://codeforces.com/profile/vivekdhir77" " target="
+                        _blank">CODEFORCES</a></li>
+                <li>3⭐ on <a href="https://www.codechef.com/users/vivekdhir77" " target=" _blank">CODECHEF</a></li>
                 <li>5⭐Python on Hackerrank</li>
                 <li>5⭐C++ on Hackerrank</li>
                 <li>3⭐Java on Hackerrank</li>
@@ -149,31 +150,45 @@
         </div>
 
 
-        <div class="Projects">
+        <div class="Projects" id="projects">
             <h3>Projects</h3>
             <hr size="3px" width="30%">
             <ul>
-                <li><h5>Bull Game</h5>
-                    <p> - It is a game made using JAVA and XML. <br>Tools Used: Android Studio, IntelliJ IDE, Figma. <a href="https://github.com/vivekdhir77/Bull-Game" target="_blank">Project Link</a></p>
+                <li>
+                    <h5>Bull Game</h5>
+                    <p> - It is a game made using JAVA and XML. <br>Tools Used: Android Studio, IntelliJ IDE, Figma. <a
+                            href="https://github.com/vivekdhir77/Bull-Game" target="_blank">Project Link</a></p>
                 </li>
                 <li>
                     <h5>Inspiro Bot</h5>
-                    <p> - It is a discord bot made using python that sends Quotes through API calls. It also detects depressing texts and sends motivating messages. <br>Tools Used: VScode. 
-                        <a href="https://github.com/vivekdhir77/Bull-Game" target="_blank">Project Link</a></p>
+                    <p> - It is a discord bot made using python that sends Quotes through API calls. It also detects
+                        depressing texts and sends motivating messages. <br>Tools Used: VScode.
+                        <a href="https://github.com/vivekdhir77/Bull-Game" target="_blank">Project Link</a>
+                    </p>
                 </li>
                 <li>
-                    <h5>Portfolio Website</h5><p> - You are viewing this now. It is made using HTML, CSS and JavaScript. <br>Tools Used: VScode. <a href="https://github.com/vivekdhir77/vivekdhir77.github.io" target="_blank">Project Link</a> </p>
+                    <h5>Portfolio Website</h5>
+                    <p> - You are viewing this now. It is made using HTML, CSS and JavaScript. <br>Tools Used: VScode.
+                        <a href="https://github.com/vivekdhir77/vivekdhir77.github.io" target="_blank">Project Link</a>
+                    </p>
                 </li>
                 <li>
-                    <h5>Universe Making</h5><p> - It is a simple command line game based on mixing elements, made in python. <br>Tools used: VScode. <a href="https://github.com/vivekdhir77/Universe-Making" target="_blank">Project Link</a></p>
+                    <h5>Universe Making</h5>
+                    <p> - It is a simple command line game based on mixing elements, made in python. <br>Tools used:
+                        VScode. <a href="https://github.com/vivekdhir77/Universe-Making" target="_blank">Project
+                            Link</a></p>
                 </li>
                 <li>
                     <h5>Name_Vivek-Dhir</h5>
-                    <p> - It is a simple program which writes my name using python module - turtle graphics. <br>Tools used: VScode. <a href="https://github.com/vivekdhir77/Name_Vivek-Dhir" target="_blank">Project Link</a></p>
+                    <p> - It is a simple program which writes my name using python module - turtle graphics. <br>Tools
+                        used: VScode. <a href="https://github.com/vivekdhir77/Name_Vivek-Dhir" target="_blank">Project
+                            Link</a></p>
                 </li>
                 <li>
                     <h5>Learnings repository</h5>
-                    <p> - This is a repository where I have all I of the stuff I learn when I am practicing competitive programming. <a href="https://github.com/vivekdhir77/Learnings" target="_blank">Project Link</a></p> 
+                    <p> - This is a repository where I update all the stuff I learn when I am practicing competitive
+                        programming. <a href="https://github.com/vivekdhir77/Learnings" target="_blank">Project Link</a>
+                    </p>
                 </li>
             </ul>
 
@@ -184,18 +199,25 @@
 
         </div>
 
-
         <div class="Contact">
 
         </div>
 
-
-
     </div>
 </body>
 
-<footer>
-
+<footer id="footer">
+    <ul class="ico">
+        <li><a href="https://www.instagram.com/vivekdhir77/" target="_blank"><i class="fab fa-instagram" title="instagram"></i></a></i></li>
+        <li><a href="https://www.linkedin.com/in/vivekdhir77/" target="_blank"><i class="fab fa-linkedin" title="linkedin"></i></a></i></li>
+        <li><a href="https://github.com/vivekdhir77" target="_blank"><i class="fab fa-github" title="GitHub"></i></a></i></li>
+        <li><a href="https://discord.com/users/664398831386886154" target="_blank"><i class="fab fa-discord" title="discord"></i></a></i></li>
+        <li><a href="https://twitter.com/vivekdhir77" target="_blank"><i class="fab fa-twitter" title="twitter"></i></a></i></li>
+    </ul>
+    <ul class="copyright">
+        <li>Made with ❤ by Vivek Dhir | Last updated: 4-August-2021</li>
+        <li>Copyright © 2021 Vivek Dhir Productions. All rights reserved.</li>
+    </ul>
 </footer>
 <script>
     var roles = ["a Student", "a Competitive Coder", "a Gamer", "a Web Developer", "an Android Developer", "a Badminton Player", "a Foodie"];
