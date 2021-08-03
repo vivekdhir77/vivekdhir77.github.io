@@ -151,7 +151,7 @@ header nav ul li a{
     position: relative;
     text-align: center;
     color: white;
-    /* background-color: #000000; */
+    background-color: #070d2b;
 }
 
 #home_img{
@@ -229,7 +229,7 @@ header nav ul li a{
     align-content: center;*/
     /* justify-content: center; */
     height: 60vh;
-    background-color: #21b2a6;
+    background-color: #26313C;
 }
 
 @media screen and (max-width: 450px) {
@@ -240,9 +240,9 @@ header nav ul li a{
 
 .aboutHeading{
     font-family: 'Roboto', sans-serif;
-    background-color: #21b2a6;
+    background-color: #26313C;
     display: block;
-    padding-top: 12vh;
+    padding-top: 8vh;
     margin-bottom: 4vh;
     text-align: center;
     letter-spacing: 2px;
@@ -253,16 +253,16 @@ header nav ul li a{
 .aboutLine{
     justify-content: center;
     margin-left: 35%;
-    background-color: #149489;
+    background-color: #1B252F;
     border-radius: 100px;
 }
-
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
 .aboutBody{
     margin: 5vh;
     text-align: center;
-    color: #c8ece9;
-    background-color: #21b2a6;
-    font-family: "Arial", Times, Sans-serif;
+    color: #e0edfa;
+    background-color: #26313C;
+    font-family: 'PT Sans', sans-serif;
     font-size: 16px;
     font-weight:lighter;
     letter-spacing: 1.5px;
@@ -293,6 +293,10 @@ header nav ul li a{
     width: fit-content; letter-spacing: 2px;
     background-color: transparent;
 }
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=STIX+Two+Text:wght@500&display=swap');
+.Skills h5{
+    font-family: 'Open Sans', sans-ser;
+}
 
 .comp{
     /* background-color: transparent; */
@@ -315,16 +319,40 @@ header nav ul li a{
 
 .webdev{
     position: absolute;
-    top: 55%;
-    left: 28%;
+    top: 65%;
+    left: 24%;
     transform: translate(-50%, -20%);
 }
 
-.tools{
+
+.tools {
     position: absolute;
-    top: 60%;
+    top: 67%;
     left: 65%;
     transform: translate(-50%, -20%);
+}
+
+.tools-part2{
+    position: absolute;
+    top: 70%;
+    left: 80%;
+    transform: translate(-50%, -20%);
+}
+
+.comp ul li{
+    padding: 12px;
+}
+
+.android ul li{
+    padding: 12px;
+}
+
+.webdev ul li{
+    padding: 12px;
+}
+
+.tools ul li{
+    padding: 12px;
 }
 
 @media screen and (max-width: 910px){
@@ -340,20 +368,46 @@ header nav ul li a{
     .android{
         position: absolute;
         top: 25%;
-        left: 80%;
+        left: 70%;
     }
     
     .webdev{
         /* background-color: transparent; */
         position: absolute;
-        top: 55%;
-        left: 28%;
+        top: 60%;
+        /* left: 24%; */
     }
     .tools{
         /* background-color: transparent; */
         position: absolute;
         top: 60%;
-        left: 75%;
+        left: 60%;
+    }
+    .tools-part2{
+        top: 65%;
+    }
+}
+
+@media screen and (max-width: 550px){
+    .comp{
+        top: 25%;
+        left: 85%;
+    }
+    .tools{
+        /* background-color: transparent; */
+        top: 65%;
+        left: 20%;
+    }
+    .tools-part2{
+        top: 70%;
+        left: 40%;
+    }
+    .webdev{
+        top: 65%;
+        left:80%;
+    }
+    .android{
+        left: 35%;
     }
 }
 
@@ -430,33 +484,32 @@ header nav ul li a{
 /* Achievements section start */
 
 .Achievements{
-    background-color: #21b2a6;
+    background-color: #1B252F;
     width: 100%;
     height: 75vh;
     /* display: flex; */
 }
-
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&family=Rubik:wght@500&display=swap');
 #achievements{
-    background-color: #21b2a6;
-    font-family: 'Roboto', sans-serif;
-    background-color: #21b2a6;
+    background-color: #1B252F;
+    font-family: 'PT Sans', sans-serif;
     display: block;
     padding-top: 8vh;
     margin-bottom: 4vh;
     text-align: center;
     letter-spacing: 2px;
-    font-weight: bold;
-    font-size: 24px;
+    font-weight: lighter;
+    font-size: 32px;
 }
 
 .Achievements hr{
     margin-left: 35%;
     border-radius: 500px;
-    background-color: #248881;
+    background-color: #F5C256;
 }
 
 .Achievements p{
-    background-color: #21b2a6;
+    background-color: #1B252F;
     padding-left: 75px;
     padding-top: 30px;
     padding-bottom: 10px;
@@ -467,11 +520,11 @@ header nav ul li a{
 }
 
 .Achievements ul{
-    background-color: #21b2a6;
+    background-color: #1B252F;
     padding-left: 100px;
 }
 .Achievements ul li{
-    background-color: #21b2a6;
+    background-color: #1B252F;
     color: rgb(207, 251, 250);
     font-size: 18px;
     padding: 10px;
@@ -483,7 +536,7 @@ header nav ul li a{
 
 .Achievements ul li a{
     background-color: transparent;
-    color: blue;
+    color: #F5C256;
     text-decoration:  underline;
 }
 
