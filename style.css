@@ -298,6 +298,10 @@ header nav ul li a{
     font-family: 'Open Sans', sans-ser;
 }
 
+.Skills div ul li{
+    list-style-type:circle;
+}
+
 .comp{
     /* background-color: transparent; */
     position: absolute;
@@ -548,13 +552,16 @@ header nav ul li a{
 }
 /* Achievements section end */
 
+
+/*projects section start*/
 .Projects{
     background-color: black;
-    height: 80vh;
+    height: 108vh;
     padding-top: 70px;
 }
 .Projects h3{
     text-align: center;
+    font-size: 24px;
 }
 
 .Projects hr{
@@ -563,7 +570,28 @@ header nav ul li a{
 }
 
 .Projects ul{
+    list-style-type:circle;
     margin-top: 44px;
     margin-left: 40px;
     margin-right: 40px;
+}
+
+.Projects ul li{
+    margin: 32px;
+}
+
+.Projects ul li h5{
+    font-size: 20px;
+    color: #F5C256;
+    padding-bottom: 5px;
+}
+
+.Projects ul li p{
+    font-size: 17px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.Projects ul li p a{
+    color: #e7f18a;
+    text-decoration: underline;
 }
