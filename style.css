@@ -487,6 +487,7 @@ header nav ul li a{
     background-color: #1B252F;
     width: 100%;
     height: 75vh;
+    margin-right: 40px;
     /* display: flex; */
 }
 @import url('https://fonts.googleapis.com/css2?family=PT+Sans&family=Rubik:wght@500&display=swap');
@@ -540,6 +541,29 @@ header nav ul li a{
     text-decoration:  underline;
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 440px){
+    .Achievements{
+        height: 90vh;
+    }
+}
+/* Achievements section end */
 
+.Projects{
+    background-color: black;
+    height: 80vh;
+    padding-top: 70px;
+}
+.Projects h3{
+    text-align: center;
+}
+
+.Projects hr{
+    margin-top: 20px;
+    margin-left: 35%;
+}
+
+.Projects ul{
+    margin-top: 44px;
+    margin-left: 40px;
+    margin-right: 40px;
 }
