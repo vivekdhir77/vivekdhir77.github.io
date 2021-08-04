@@ -3,6 +3,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=STIX+Two+Text:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
 
 *{
     margin: 0;
@@ -232,22 +234,19 @@ header nav ul li a{
     background-color: #26313C;
 }
 
-@media screen and (max-width: 450px) {
-    .About{
-        height: 70vh;
-    }
-}
+
 
 .aboutHeading{
-    font-family: 'Roboto', sans-serif;
     background-color: #26313C;
     display: block;
     padding-top: 8vh;
     margin-bottom: 4vh;
     text-align: center;
+
+    font-family: 'PT Sans', sans-serif;
     letter-spacing: 2px;
-    font-weight: bold;
-    font-size: 24px;
+    font-weight: lighter;
+    font-size: 32px;
 }
 
 .aboutLine{
@@ -256,16 +255,26 @@ header nav ul li a{
     background-color: #1B252F;
     border-radius: 100px;
 }
-@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+
 .aboutBody{
     margin: 5vh;
     text-align: center;
     color: #e0edfa;
     background-color: #26313C;
-    font-family: 'PT Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-size: 16px;
-    font-weight:lighter;
-    letter-spacing: 1.5px;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+}
+
+@media screen and (max-width: 450px) {
+    .About{
+        height: 85vh;
+    }
+    .aboutHeading{
+        padding-top: 2vh;
+        margin-bottom: 2vh;
+    }
 }
 
 /* about section end */
@@ -292,10 +301,16 @@ header nav ul li a{
     border-bottom-width: 3px;
     width: fit-content; letter-spacing: 2px;
     background-color: transparent;
+
+    font-family: 'PT Sans', sans-serif;
+    letter-spacing: 2px;
+    font-weight: lighter;
+    font-size: 32px;
 }
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=STIX+Two+Text:wght@500&display=swap');
+
 .Skills h5{
     font-family: 'Open Sans', sans-ser;
+    font-size: 16px;
 }
 
 .Skills div ul li{
@@ -465,8 +480,11 @@ header nav ul li a{
 .Hobbies ul li{
     background-color: black;
     margin: 24px;
-    letter-spacing: 1.5px;
     padding-left: 28px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 0.5px;
 }
 
 @media screen and (max-width:800px){
@@ -479,7 +497,7 @@ header nav ul li a{
     padding-left: 24px;
     }
     .Hobbies ul{
-    margin-left: 100px;
+    margin-left: 70px;
     }
 }
 
@@ -499,13 +517,13 @@ header nav ul li a{
 #achievements{
     background-color: #1B252F;
     font-family: 'PT Sans', sans-serif;
+    letter-spacing: 2px;
+    font-weight: lighter;
+    font-size: 32px;
     display: block;
     padding-top: 8vh;
     margin-bottom: 4vh;
     text-align: center;
-    letter-spacing: 2px;
-    font-weight: lighter;
-    font-size: 32px;
 }
 
 .Achievements hr{
@@ -532,10 +550,10 @@ header nav ul li a{
 .Achievements ul li{
     background-color: #1B252F;
     color: rgb(207, 251, 250);
-    font-size: 18px;
     padding: 10px;
     line-height: 32px;
     font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
     font-weight: bold;
     letter-spacing: 0.5px;
 }
@@ -548,7 +566,13 @@ header nav ul li a{
 
 @media screen and (max-width: 440px){
     .Achievements{
-        height: 90vh;
+        height: 95vh;
+    }
+    .Achievements p{
+        padding-left: 55px;
+    }
+    .Achievements ul{
+        padding-left: 60px;
     }
 }
 /* Achievements section end */
@@ -569,7 +593,10 @@ header nav ul li a{
 } */
 .Projects h3{
     text-align: center;
-    font-size: 24px;
+    font-family: 'PT Sans', sans-serif;
+    letter-spacing: 2px;
+    font-weight: lighter;
+    font-size: 32px;
 }
 
 .Projects hr{
@@ -606,6 +633,53 @@ header nav ul li a{
 
 /*projects section end*/
 
+
+/* goals section starts*/
+#Goals{
+    background-color: #000000;
+}
+
+#Goals hr{
+    margin-left: 35%;
+    margin-top: 16px;
+    margin-bottom: 24px;
+    color: red;
+}
+#Goals div{
+    position: relative;
+    background-image: url(goals.gif);
+    padding: 24px;
+    background-size: cover;
+    height: 400px;
+}
+
+@media screen and (max-width: 450px){
+    #Goals div{
+        height: auto;
+        padding: 36px;
+    }
+}
+
+#Goals h3{
+    text-align: center;
+    font-family: 'PT Sans', sans-serif;
+    letter-spacing: 2px;
+    font-weight: lighter;
+    font-size: 32px;
+}
+
+#Goals p{
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+}
+/*goals section ends*/
+
+
+
+
 /*footer section start*/
 footer{
     background-color: #202020;
@@ -620,8 +694,14 @@ footer{
 }
 
 .ico li{
-    padding: 28px;
-    font-size: 36px;
+    padding: 24px;
+    font-size: 32px;
+}
+
+@media screen and (max-width:450px) {
+    .ico li{
+        padding: 12px;
+    }
 }
 
 .ico li a{
