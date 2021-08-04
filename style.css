@@ -703,9 +703,10 @@ header nav ul li a{
 }
 
 @media screen and (max-width: 450px){
-    #Goals div{
-        height: auto;
-        padding: 36px;
+    #Goals div p{
+        /* height: auto; */
+        /* padding: 36px; */
+        font-size: 12px;
     }
 }
 
