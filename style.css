@@ -12,6 +12,7 @@
     text-decoration: none;
     /* box-sizing: border-box; */
     /* width: 100vw; */
+    /* overflow-x: hidden; */
 }
 body{
     overflow-x: hidden;
@@ -383,7 +384,7 @@ header nav ul li a{
 }
 
 .comp ul li{
-    padding: 12px;
+    padding: 6px;
 }
 
 .android ul li{
@@ -434,7 +435,10 @@ header nav ul li a{
 @media screen and (max-width: 550px){
     .comp{
         top: 25%;
-        left: 80%;
+        left: 67%;
+    }
+    .comp ul li{
+        width: 12px;
     }
     .tools{
         /* background-color: transparent; */
@@ -496,6 +500,7 @@ header nav ul li a{
     display: block;
     /* margin: 50px; */
     /* align-items: center; */
+
     margin-bottom: 0px;
     background-color: black;
     /* justify-content: center; */
@@ -506,8 +511,8 @@ header nav ul li a{
 
 .Hobbies ul li{
     background-color: black;
-    margin: 24px;
-    padding-left: 28px;
+    margin-top: 24px;
+    /* padding-left: 28px; */
     font-family: 'Open Sans', sans-serif;
     font-size: 24px;
     font-weight: bold;
@@ -521,12 +526,14 @@ header nav ul li a{
         /* height: 80vh; */
     }
     .Hobbies ul li{
-        margin: 16px;
+    margin: 8px;
     letter-spacing: 1.5px;
-    padding-left: 24px;
+    /* padding-left: 24px; */
+    align-items: flex-start;
     }
     .Hobbies ul{
     margin-left: 70px;
+    align-items: flex-start;
     }
 }
 
@@ -595,13 +602,19 @@ header nav ul li a{
 
 @media screen and (max-width: 440px){
     .Achievements{
-        height: 95vh;
+        /* height: 95vh; */
     }
     .Achievements p{
-        padding-left: 55px;
+        /* padding-left: 55px; */
+        font-size: 22px;
+
     }
     .Achievements ul{
         padding-left: 60px;
+        font-size: 18px;
+    }
+    .Achievements h5{
+        margin: 28px;
     }
 }
 /* Achievements section end */
@@ -658,6 +671,12 @@ header nav ul li a{
 .Projects ul li p a{
     color: #e7f18a;
     text-decoration: underline;
+}
+
+@media screen and (max-width: 600px){
+    .Projects hr{
+        margin-top: 5px;
+    }
 }
 
 /*projects section end*/
