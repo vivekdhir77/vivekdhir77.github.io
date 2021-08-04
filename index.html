@@ -10,7 +10,11 @@
     <title>👽Vivek Dhir</title>
     <link rel="stylesheet" href="style.css">
     <script defer src="/fontawesome-free-5.15.3-web/js/all.js"></script>
-
+    <script>
+        var host = "vivekdhir77.github.io";
+        if ((host == window.location.host) && (window.location.protocol != "https:"))
+            window.location.protocol = "https";
+    </script>
 </head>
 
 
@@ -202,14 +206,20 @@
                 <hr size="2px" width="30%">
                 <p>I am a goal oriented person and I work really hard to achieve my goals.
                     I make short term goals and built upon them to achieve my dreams.
-                    <br><br> Currently my short term goals iclude becoming specialist on codeforces and
+                    <br><br> Currently my short term goals include becoming specialist on codeforces and
                     built up on my development skills to be better than yesterday. <br><br>
                     I dream to become succesfull coder and entrepreneur in the future.
                 </p>
             </div>
         </div>
         <div class="Contact">
-
+            <h3>Say hi to me!</h3>
+            <hr width="30%" size="2px">
+            <p><span class="parah">Feel free to talk to me about anything that bothers you. If you need a helping hand, please don't hesitate to contact me. Let me know if you want to team up for a hackathon! I live in the India's time zone (GMT + 5:30), if this helps.
+            <br><br><br></span>
+            Time on my watch : <span id="time"></span><br>
+            Date in my time zone :  <span id="date"></span>
+            <br><br> You can contact me through my social media handles or mail me at: <span style="color: yellow;">vivekdhir77@gmail.com</span></p>
         </div>
 
     </div>
@@ -244,4 +254,16 @@
     }, 2250)
 </script>
 
+<script>
+    let a;
+    let date;
+    let time;
+    setInterval(() => {
+    a = new Date();
+    date = a.toLocaleDateString();
+    time = a.getHours() + ' : '+ a.getMinutes() + ' : '+ a.getSeconds();
+    document.getElementById('time').innerHTML = time;
+    document.getElementById('date').innerHTML = date;
+  }, 1000);
+  </script>
 </html>
