@@ -3,6 +3,10 @@
     padding: 0px;
 }
 
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
 
 body{
     background-color: rgb(10 25 47);
@@ -31,11 +35,11 @@ text-decoration-thickness: 6px;
     text-align: center;
     top: 30%;
     left: 50%;
-    transform: translate(-50%, 20%);
+    transform: translate(-50%, 10%);
     font-size: 28px;
     display:inline-block;
     /* padding-bottom: 100px; */
-    margin-bottom: 350px;
+    margin-bottom: 300px;
     /* border-bottom: 100px; */
 }
 
@@ -74,17 +78,33 @@ text-decoration-thickness: 6px;
 }
 
 #social{
-    display: flex;
-    flex-direction: row;
+    display: flexbox;
+    /* flex-direction: row; */
     justify-content: center;
     list-style: none;
     font-size: 32px;
 }
 
 #social li{
-    padding: 16px 24px;
+    display: inline-block;
+    padding: 16px 12px;
 }
 
 #social li:hover{
+    color: rgb(91 232 201);
+}
+
+.What-I-do{
+    color: rgb(204 214 246);
+    text-align: center; 
+    margin: 4px;
+    border-color: red;
+}
+
+.What-I-do p{
+    color: rgb(136 146 176);
+}
+
+.What-I-do h2 span{
     color: rgb(91 232 201);
 }
