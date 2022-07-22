@@ -1,264 +1,150 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0 minimum-scale=1">
-    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
-    <link rel="stylesheet" href="font-mfizz/font-mfizz.css">
-    <title>👽Vivek Dhir</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
-    <script defer src="/fontawesome-free-5.15.3-web/js/all.js"></script>
-    <script>
-        var host = "vivekdhir77.github.io";
-        if ((host == window.location.host) && (window.location.protocol != "https:"))
-            window.location.protocol = "https";
-    </script>
+    <script src="https://kit.fontawesome.com/4d11437eb1.js" crossorigin="anonymous"></script>
+    <title>Document</title>
 </head>
-
-
 <body>
-    <!-----------------navigtion bar start------------------------ -->
-    <header>
-        <nav class="navbar">
-            <h1 class="logo">Vivek Dhir</h1>
-            <input type="checkbox" id="check">
-            <label for="check" class="checkbtn">
-                <i class="fas fa-bars"></i>
-            </label>
-            <p class="mediaLogo" hidden style="background-color: transparent;">Vivek Dhir</p>
-            <ul class="buttons">
-                <li><a class="navbutton1" href="#home"> Home</a></li>
-                <li><a class="navbutton2" href="#about"> About</a></li>
-                <li><a class="navbutton3" href="#skills"> Skills</a></li>
-                <li><a class="navbutton4" href="#hobbies"> Hobbies</a></li>
-                <li><a class="navbutton5" href="#achievement"> Achievements</a></li>
-                <li><a class="navbutton6" href="#projects"> Projects</a></li>
-                <li><a class="navbutton7" href="#Goals"> Goals</a></li>
-                <li><a class="navbutton8" href="#contact"> Contact</a></li>
-            </ul>
-        </nav>
-    </header>
-    <!-----------------navigtion bar end------------------------  -->
-    <div class="main">
-        <div class="Home" id="home">
-            <img id="home_img" src="aboutpg.jpg" alt="">
-            <h2 class="name">Vivek Dhir</h2>
-            <p class="home_content">I am <span id="adjectives" style="background: transparent;">a Student</span></p>
-            <div class="social">
-                <a href="mailto: vivekdhir77@gmail.com" target="_blank"><img src="social/mail.svg" alt="mail"></a>
-                <a href="https://www.linkedin.com/in/vivekdhir77/" target="_blank"><img src="social/linkedin.svg"
-                        alt="linkedin"></a>
-                <a href="https://github.com/vivekdhir77" target="_blank"><img src="social/github.svg" alt="github"></a>
-                <a href="https://www.instagram.com/vivekdhir77/" target="_blank"><img src="social/instagram.svg"
-                        alt="instagram"></a>
-                <a href="https://twitter.com/vivekdhir77" target="_blank"><img src="social/twitter.svg"
-                        alt="twitter"></a>
-            </div>
+
+    <nav class=" navbar navbar-expand-lg">
+        <button class="justify-content-right navbar-toggler navbar-dark" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="justify-content-center collapse navbar-collapse" style="text-align: center;" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Intro <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="#">What I do<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Who am I<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="#">My work<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Newsletter<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Contact<span class="sr-only">(current)</span></a>
+            </li>
+          </ul>
         </div>
-        <div class="About" id="about">
-            <h3 class="aboutHeading">About Me</h3>
-            <hr class="aboutLine" size="8" width="30%">
-            <p class="aboutBody">Hi, I am Vivek Dhir. I live in the IT hub of India, Hyderabad. If you need anything up
-                on the web, you've found the right guy! Motivating, Fun and Perfectionist are some of the qualities that
-                my closest friends will tell you that I possess. I enjoy meeting different people and communicating with
-                them. I also spend my weekends playing chess, cycling and occassionally playing Badminton.<br>
-                <br><br>
-                I'm a technology freak who is obsessed with exploring new technolgies and build fun apps with them .
-                <br><br>
-                This Web Porfolio is my first web dev project Hope you Like it.😊
-            </p>
-        </div>
+    </nav>
 
-        <div class="Skills" id="skills">
-            <img class="skillsImg" src="skills.gif" alt="space" width="100%">
-            <h3 class="skillsHeading">Tech Skills</h3>
-            <div class="comp">
-                <h5>Competitive Programming</h5>
-                <ul>
-                    <li><img style="width: 28px;" src="icons/c.svg" alt="C++"></li>
-                    <li><img style="width: 124px;" src="icons/python-logo-generic.svg" alt="Python"></li>
-                </ul>
-            </div>
-            <div class="android">
-                <h5>Android Development</h5>
-                <ul>
-                    <li><img style="width: 84px;" src="icons/java-horizontal.svg" alt="JAVA"></li>
-                    <li><img style="width: 44px;" src="icons/XML.png" alt="XML"></li>
-                </ul>
-            </div>
-            <div class="webdev">
-                <h5>Web Development</h5>
-                <ul>
-                    <li><img style="width: 44px;" src="icons/html5-with-wordmark-color.svg" alt="HTML"></li>
-                    <li><img style="width: 44px;" src="icons/css.svg" alt="CSS"></li>
-                    <li><img style="width: 32px;" src="icons/javascript-js-seeklogo.com.svg" alt="Javascript"></li>
-                </ul>
-            </div>
-            <div class="tools">
-                <h5>Tools</h5>
-                <ul class="tools-part1">
-                    <li><img style="width: 44px;" src="icons/Git-Logo-1788C.png" alt="Git"></li>
-                    <li><img style="width: 32px;" src="social/github.svg" alt="GitHub"></li>
-                    <li><img style="width: 32px;" src="icons/visual-studio-code.svg" alt="VScode"></li>
-                </ul>
-            </div>
-            <ul class="tools-part2">
-                <li><img style="width: 32px;" src="icons/IntelliJ_IDEA_Icon.svg" alt="IntelliJ"></li>
-                <li><img style="width: 32px;" src="icons/android-studio.svg" alt="Android studio"></li>
-                <li><img style="width: 32px;" src="icons/figma-1.svg" alt="figma"></li>
-            </ul>
-        </div>
+    <div id="tsparticles">
 
-
-        <div class="Hobbies" id="hobbies">
-            <h5 class="hobby">Hobbies</h5>
-            <hr class="hobbiesLine" size="3" width="30%">
-            <!-- <div class="hobbydiv"> -->
-            <ul>
-                <li>Badminton🏸</li>
-                <li>Football⚽</li>
-                <li>Playing Chess <img style="width: 28px;" src="icons/chess-pieces-transparent-35.png" alt="chess">
-                </li>
-                <li>Solving Cube<img style="width: 28px;" src="icons/cube_of_rubik_1.svg" alt="cube"></li>
-                <li>Reading Blogs on startups📚</li>
-                <li>Learning about stocks<img style="width: 28px;" src="icons/stock.png" alt="stocks"></li>
-                <li>Listening to ted talks<img style="width: 28px;" src="icons/TED.png" alt="TED"></li>
-            </ul>
-        </div>
-        <!-- </div> -->
-
-
-        <div class="Achievements" id="achievement">
-            <h5 id="achievements">Achievements</h5>
-            <hr width="30%" size="8">
-            <p>Here are some of my achievements:</p>
-
-            <ul style="list-style-type:circle;">
-                <li>Solved 400+ questions in total from codeforces, codechef, Atcoder, spoj, HackerRank and leetcode.
-                </li>
-                <li>Max rating 1115 on <a href="https://codeforces.com/profile/vivekdhir77" " target="
-                        _blank">CODEFORCES</a></li>
-                <li>3⭐ on <a href="https://www.codechef.com/users/vivekdhir77" " target=" _blank">CODECHEF</a></li>
-                <li>5⭐Python on Hackerrank</li>
-                <li>5⭐C++ on Hackerrank</li>
-                <li>3⭐Java on Hackerrank</li>
-            </ul>
-        </div>
-
-
-        <div class="Projects" id="projects">
-            <h3>Projects</h3>
-            <hr size="3px" width="30%">
-            <ul>
+      <div id="Intro" style="width: 60%;">
+          <div>
+              <h1>Hey. I'm Vivek.</h1>
+              <h2><a href="">Programmer</a> | <a href="">Developer</a> | <a href="">Researcher</a></h2>
+          </div>
+          <div>
+              <img src="./assets/profile1.png" alt="DP" style="padding:0px; width: 100px; height:100px;">
+              <ul id="social" >
                 <li>
-                    <h5>Bull Game</h5>
-                    <p> - It is a game made using JAVA and XML. <br>Tools Used: Android Studio, IntelliJ IDE, Figma. <a
-                            href="https://github.com/vivekdhir77/Bull-Game" target="_blank">Project Link</a></p>
+                  <i class="fa-brands fa-instagram"></i>
                 </li>
                 <li>
-                    <h5>Inspiro Bot</h5>
-                    <p> - It is a discord bot made using python that sends Quotes through API calls. It also detects
-                        depressing texts and sends motivating messages. <br>Tools Used: VScode.
-                        <a href="https://github.com/vivekdhir77/Bull-Game" target="_blank">Project Link</a>
-                    </p>
+                  <i class="fa-brands fa-github"></i>
                 </li>
                 <li>
-                    <h5>Portfolio Website</h5>
-                    <p> - You are viewing this now. It is made using HTML, CSS and JavaScript. <br>Tools Used: VScode.
-                        <a href="https://github.com/vivekdhir77/vivekdhir77.github.io" target="_blank">Project Link</a>
-                    </p>
+                  <i class="fa-brands fa-linkedin"></i>
                 </li>
                 <li>
-                    <h5>Universe Making</h5>
-                    <p> - It is a simple command line game based on mixing elements, made in python. <br>Tools used:
-                        VScode. <a href="https://github.com/vivekdhir77/Universe-Making" target="_blank">Project
-                            Link</a></p>
+                  <i class="fa-regular fa-envelope"></i>
                 </li>
                 <li>
-                    <h5>Name_Vivek-Dhir</h5>
-                    <p> - It is a simple program which writes my name using python module - turtle graphics. <br>Tools
-                        used: VScode. <a href="https://github.com/vivekdhir77/Name_Vivek-Dhir" target="_blank">Project
-                            Link</a></p>
+                  <i class="fa-brands fa-discord"></i>
                 </li>
                 <li>
-                    <h5>Learnings repository</h5>
-                    <p> - This is a repository where I update all the stuff I learn when I am practicing competitive
-                        programming. <a href="https://github.com/vivekdhir77/Learnings" target="_blank">Project Link</a>
-                    </p>
+                  <i class="fa-brands fa-twitter"></i>
                 </li>
-            </ul>
 
-        </div>
+              </ul>
+              <h3> The web can sometimes be indistinguishable from magic, but I have the knowledge and patience required to make just about anything.</h3>
+          </div>
+      </div>
 
+      <div class="What-I-do">
+        <!-- <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum voluptatibus ipsam aliquam. Sunt odit repudiandae cupiditate perspiciatis similique, necessitatibus provident vel. Maiores, vel! Sed recusandae quod minus, facilis fugit hic!
+        </p> -->
 
-        <div id="Goals">
-            <!-- <img src="goals.gif" alt="stars"> -->
-            <div>
-                <h3>Goals 🎯</h3>
-                <hr size="2px" width="30%">
-                <p>I am a goal oriented person and I work really hard to achieve my goals.
-                    I make short term goals and build upon them to achieve my dreams.
-                    <br><br> Currently my short term goals include becoming specialist on codeforces and
-                    build up on my development skills to be better than yesterday. <br><br>
-                    I dream to become successful coder and entrepreneur in the future.
-                </p>
-            </div>
-        </div>
-        <div class="Contact" id="contact">
-            <h3>Say hi to me!</h3>
-            <hr width="30%" size="2px">
-            <p><span class="parah">Feel free to talk to me about anything that bothers you. If you need a helping hand, please don't hesitate to contact me. Let me know if you want to team up for a hackathon! I live in the India's time zone (GMT + 5:30), if this helps.
-            <br><br><br></span>
-            Time on my watch : <span id="time"></span><br>
-            Date in my time zone :  <span id="date"></span>
-            <br><br> You can contact me through my social media handles or mail me at: <span style="color: yellow;">vivekdhir77@gmail.com</span></p>
-        </div>
-
+      </div>
+    
     </div>
 
-</body>
+      
 
-<footer id="footer">
-    <ul class="ico">
-        <li><a href="https://www.instagram.com/vivekdhir77/" target="_blank"><i class="fab fa-instagram"
-                    title="instagram"></i></a></i></li>
-        <li><a href="https://www.linkedin.com/in/vivekdhir77/" target="_blank"><i class="fab fa-linkedin"
-                    title="linkedin"></i></a></i></li>
-        <li><a href="https://github.com/vivekdhir77" target="_blank"><i class="fab fa-github"
-                    title="GitHub"></i></a></i></li>
-        <li><a href="https://discord.com/users/664398831386886154" target="_blank"><i class="fab fa-discord"
-                    title="discord"></i></a></i></li>
-        <li><a href="https://twitter.com/vivekdhir77" target="_blank"><i class="fab fa-twitter"
-                    title="twitter"></i></a></i></li>
-    </ul>
-    <ul class="copyright">
-        <li>Made with ❤ by Vivek Dhir<br> Last updated: 4-August-2021</li>
-        <li>Copyright © 2021 Vivek Dhir Productions.<br>All rights reserved.</li>
-    </ul>
-</footer>
-<script>
-    var roles = ["a Student", "a Competitive Coder", "a Gamer", "a Web Developer", "an Android Developer", "a Badminton Player", "a Foodie"];
-    var count = 1;
-    window.setInterval(function () {
-        if (count >= 6)
-            count = 0;
-        document.getElementById("adjectives").innerHTML = roles[count];
-        count = count + 1;
-    }, 2250)
-</script>
 
-<script>
-    let a;
-    let date;
-    let time;
-    setInterval(() => {
-    a = new Date();
-    date = a.toLocaleDateString();
-    time = a.getHours() + ' : '+ a.getMinutes() + ' : '+ a.getSeconds();
-    document.getElementById('time').innerHTML = time;
-    document.getElementById('date').innerHTML = date;
-  }, 1000);
+
+    
+
+
+
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+
+  
+<script src="https://cdn.jsdelivr.net/npm/tsparticles-slim@2.0.6/tsparticles.slim.bundle.min.js"></script>
+    <script type="text/javascript">
+      const options = {
+        background: {
+          color: "transparent", // the canvas background color
+        },
+        interactivity: {
+          events: {
+            onClick: {
+              // this handles the mouse click event
+              enable: true,
+              mode: "push", // this adds particles
+            },
+            onHover: {
+              // this handles the mouse hover event
+              enable: true,
+              mode: "repulse", // this make particles move away from the mouse
+            },
+          },
+          modes: {
+            push: {
+              quantity: 0, // number of particles to add
+            },
+            repulse: {
+              distance: 50, // the distance of the particles from the mouse
+            },
+          },
+        },
+        particles: {
+          links: {
+            enable: true, // this enables links between particles
+            opacity: 0.08,
+            distance: 200,
+          },
+          move: {
+            enable: true, // this makes particles move
+            speed: { min: 1, max: 2 }, // this is the speed of the particles
+          },
+          opacity: {
+            value: { min: 0.1, max: 0.2 }, // this sets the opacity of the particles
+          },
+          size: {
+            value: { min: 1, max: 3 }, // this sets the size of the particles
+          },
+    
+        },
+      };
+      tsParticles.load("tsparticles", options);
   </script>
+</body>
 </html>
