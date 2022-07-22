@@ -73,7 +73,7 @@ text-decoration-thickness: 6px;
 }
 
 #Intro div a:hover{
-    font-size: 0.5em;
+    font-size: 1em;
     text-decoration: underline;
 }
 
@@ -94,17 +94,15 @@ text-decoration-thickness: 6px;
     color: rgb(91 232 201);
 }
 
-.What-I-do{
+.What-Who{
     color: rgb(204 214 246);
     text-align: center; 
-    margin: 4px;
-    border-color: red;
 }
 
-.What-I-do p{
+.What-Who p{
     color: rgb(136 146 176);
 }
 
-.What-I-do h2 span{
+.What-Who h2 span{
     color: rgb(91 232 201);
 }
