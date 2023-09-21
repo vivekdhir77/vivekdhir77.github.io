@@ -1,8 +1,8 @@
 +++
 title = "About Me"
-description = "About - Srikar"
+description = "About - Vivek"
 date = "2022-11-17"
-author = "Ananta Srikar"
+author = "Vivek Dhir"
 +++
 
 I enjoy machine learning and algorithms. My facination towards of programming began in my freshman year when I learnt C. The year later I started learning C++, which later paved my path to pursue competitive programming. I even like to solve problems around me by codifying them. Once small problem which I solved duing my undergrad is by making a mess menu bot on discord which is being used by 1500+ people.  I dream on working as a research scientist in AI.

@@ -71,7 +71,7 @@ style = "github-dark"
 [[menu.main]]
   name = "Resume"
   weight = 1
-  url  = "Resume/"
+  url  = "resume/"
 [[menu.main]]
   name = "About"
   weight = 2
