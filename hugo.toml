@@ -1,0 +1,78 @@
+baseurl = "http://www.vivekdhir.com"
+title = "Vivek Dhir"
+theme = "hugo-coder"
+languagecode = "en"
+defaultcontentlanguage = "en"
+
+paginate = 20
+
+disqusShortname = "VD"
+
+[markup.highlight]
+style = "github-dark"
+
+[params]
+  author = "Vivek Dhir"
+  info = "Algorithms and Machine Learning"
+  description = "Vivek Dhir's personal website"
+  keywords = "ML,Programming,developer,personal"
+  avatarurl = "Images/Dp.jpeg"
+  #gravatar = "john.doe@example.com"
+
+  faviconSVG = "Images/Dp.jpeg"
+  favicon_32 = "Images/Dp.jpeg"
+  favicon_16 = "Images/Dp.jpeg"
+
+  since = 2020
+
+  enableTwemoji = true
+
+  colorScheme = "auto"
+  hidecolorschemetoggle = false
+
+  # customCSS = ["css/custom.css"]
+  # customSCSS = ["scss/custom.scss"]
+  # customJS = ["js/custom.js"]
+
+[taxonomies]
+  category = "categories"
+  series = "series"
+  tag = "tags"
+  author = "authors"
+
+# Social links
+[[params.social]]
+  name = "Github"
+  icon = "fa fa-github fa-2x"
+  weight = 1
+  url = "https://github.com/vivekdhir77/"
+[[params.social]]
+  name = "Instagram"
+  icon = "fa fa-instagram fa-2x"
+  weight = 2
+  url = "https://instagram.com/vivekdhir77/"
+[[params.social]]
+  name = "Linkedin"
+  icon = "fa fa-linkedin fa-2x"
+  weight = 2
+  url = "https://linkedin.com/in/vivekdhir77/"
+[[params.social]]
+  name = "Twitter"
+  icon = "fa fa-twitter fa-2x"
+  weight = 3
+  url = "https://twitter.com/vivekdhir77/"
+[[params.social]]
+  name = "Email"
+  icon = "fa fa-envelope fa-2x"
+  weight = 3
+  url = "vivekdhir77@gmail.com"
+
+# Menu links
+[[menu.main]]
+  name = "Resume"
+  weight = 1
+  url  = "Resume/"
+[[menu.main]]
+  name = "About"
+  weight = 2
+  url = "about/"
