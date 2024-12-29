@@ -1,0 +1,71 @@
+/* Navbar styles */
+.Navbar {
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    padding: 1rem;
+}
+
+.Navbar_mediaq {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#Name {
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: #333;
+}
+
+.Headings {
+    display: flex;
+    gap: 2rem;
+    margin-top: 1rem;
+}
+
+.Headings a {
+    color: #333;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.Headings a:hover, .Headings a.active {
+    color: crimson;
+}
+
+.Hamburger {
+    display: none;
+    cursor: pointer;
+}
+
+.Hamburger img {
+    width: 24px;
+    height: 24px;
+}
+
+@media screen and (max-width: 800px) {
+    .Navbar_mediaq {
+        width: 100%;
+    }
+
+    .Hamburger {
+        display: block;
+    }
+
+    .Headings {
+        display: none;
+        flex-direction: column;
+        gap: 1rem;
+        text-align: center;
+        width: 100%;
+    }
+
+    .Headings.show {
+        display: flex;
+    }
+
+    .Headings a {
+        display: block;
+        padding: 0.5rem;
+    }
+}

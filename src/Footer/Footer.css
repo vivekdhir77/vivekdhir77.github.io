@@ -1,0 +1,103 @@
+/* Footer styles */
+.Footer {
+    background-color: rgb(41, 32, 26);
+    padding: 2rem 0;
+    color: white;
+    text-align: center;
+}
+
+#Copyright {
+    color: #fff;
+    opacity: 0.9;
+    margin-bottom: 1.5rem;
+}
+
+/* Socials styles */
+.Socials {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+.Socials div img {
+    width: 28px;
+    transition: transform 0.3s ease;
+}
+
+.Socials div img:hover {
+    transform: scale(1.2);
+}
+
+/* Navbar styles */
+.Navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+/* Headings styles */
+.Headings {
+    display: flex;
+    gap: 2rem;
+}
+
+.Headings a {
+    color: #333;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.Headings a:hover {
+    color: crimson;
+}
+
+.Hamburger {
+    display: none;
+    cursor: pointer;
+}
+
+.Hamburger img {
+    padding: 0.5rem;
+    width: 2rem;
+    transition: transform 0.3s ease;
+}
+
+.Hamburger img:hover {
+    transform: scale(1.1);
+}
+
+/* Media query for responsive design */
+@media screen and (max-width: 800px) {
+    .Navbar {
+        flex-direction: column;
+    }
+
+    .Headings {
+        display: none; /* Initially hidden */
+    }
+
+    .Hamburger {
+        display: block; /* Show hamburger icon */
+    }
+}
+
+/* Ensure the body and html take up the full height */
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+/* Main container styles */
+#root {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Make sure the root takes at least the full height of the viewport */
+}
+
+/* Optional: If you want to ensure the footer is always at the bottom */
+.App {
+    flex: 1; /* Allow the App component to grow and fill the available space */
+}

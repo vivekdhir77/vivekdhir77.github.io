@@ -1,0 +1,123 @@
+/* General styles */
+body {
+    font-family: 'Arial', sans-serif; /* Use a clean, modern font */
+    background-color: #f9f9f9; /* Light background for better contrast */
+}
+
+/* Container for blogs */
+.blogs-container {
+    max-width: 1200px;
+    margin: 2rem auto;
+    padding: 0 2rem;
+}
+
+.blogs-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;  /* Reduced gap between cards */
+    max-width: 900px;  /* Reduced maximum width of the list */
+    margin: 0 auto;  /* Center the list */
+}
+
+/* Main heading styles */
+.blogs-container h1 {
+    font-size: 2.5rem;
+    margin-bottom: 3rem;
+    color: #333;
+    text-align: center;
+    font-weight: 700;
+}
+
+/* Grid layout for blog cards */
+.blogs-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+}
+
+/* Individual blog card styles */
+.blog-card {
+    display: flex;
+    background: white;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    height: 220px;  /* Reduced height */
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Hover effect for blog cards */
+.blog-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+}
+
+/* Blog card title styles */
+.blog-card-content {
+    flex: 2;
+    padding: 1.5rem;  /* Reduced padding */
+    display: flex;
+    flex-direction: column;
+}
+
+.blog-card-image {
+    flex: 1;
+    background-size: cover;
+    background-position: center;
+    min-width: 250px;  /* Reduced minimum width */
+}
+
+.medium-bg {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://miro.medium.com/max/1200/1*jfdwtvU6V6g99q3G7gq7dQ.png');
+}
+
+.devto-bg {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://dev-to-uploads.s3.amazonaws.com/uploads/articles/th5xamgrr6se0x5ro4g6.png');
+}
+
+.hashnode-bg {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://cdn.hashnode.com/res/hashnode/image/upload/v1611902473383/CDyAuTy75.png');
+}
+
+.blog-card h2 {
+    font-size: 1.5rem;  /* Slightly smaller heading */
+    margin-bottom: 0.75rem;  /* Reduced margin */
+    color: #2d3748;
+    font-weight: 600;
+}
+
+/* Blog card paragraph styles */
+.blog-card p {
+    color: #4a5568;
+    line-height: 1.6;
+    margin-bottom: 0;
+    flex-grow: 1;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .blog-card {
+        height: auto;
+    }
+
+    .blog-card-image {
+        height: 160px;  /* Reduced height for mobile */
+        min-width: 100%;
+        order: -1;
+    }
+
+    .blog-card-content {
+        padding: 1.25rem;
+    }
+
+    .blogs-container {
+        padding: 0 1rem;
+    }
+
+    .blogs-container h1 {
+        font-size: 2rem;
+        margin-bottom: 2rem;
+    }
+}
