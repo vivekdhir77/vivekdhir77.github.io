@@ -15,7 +15,7 @@ function Navbar() {
             <div className="Navbar_mediaq">
                 <div id="Name">VIVEK DHIR</div>
                 <div className="Hamburger" onClick={toggleMenu}>
-                    <img src="/Icons/menu.png" alt="Hamburger Menu" />
+                    <img src={process.env.PUBLIC_URL + "/Icons/menu.png"} alt="Hamburger Menu" />
                 </div>
             </div>
             <div className={`Headings ${isMenuOpen ? 'show' : ''}`}>

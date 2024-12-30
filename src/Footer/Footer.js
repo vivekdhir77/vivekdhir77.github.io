@@ -7,6 +7,9 @@ function Footer() {
             <div id="Copyright">
                 Copyright © 2024 VIVEK DHIR  
             </div>
+            <div id="Copyright">
+                Fingers away from your keyboard at vivekdhir77@gmail.com
+            </div>
             <div className="Socials">
                 <div><a href="https://github.com/vivekdhir77/" target="_blank" rel="noopener noreferrer"><img src={`${process.env.PUBLIC_URL}/Icons/github.svg`} alt="Github" /></a></div>
                 <div><a href="https://linkedin.com/in/vivekdhir77/" target="_blank" rel="noopener noreferrer"><img src={`${process.env.PUBLIC_URL}/Icons/linkedin.svg`} alt="Linkedin" /></a></div>
